@@ -17,11 +17,11 @@
 
 - node.js
   ```bash
-  [Node.js Download Page](https://nodejs.org/en/download)
+  [node-url]
   ```
 - postgreSQL
   ```bash
-  [PostgreSQL Download Page](https://www.postgresql.org/download/)
+  [psql-url]
   ```
 
 ### Installation
@@ -56,6 +56,7 @@
 ### `.env` files setup
 
 1. Enter following contetnt in the `.env` file in the server
+
    ```bash
    # environment variables
    NODE_ENV=dev
@@ -68,6 +69,7 @@
    PG_DATABASE= <DATABASE_NAME>
    PG_MAXCONN=150
    ```
+
 2. Enter following contetnt in the `.env` file in the client
    ```bash
    REACT_APP_API_BASE_URL = http://localhost:8000
@@ -90,7 +92,10 @@
    ```
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+[node-url]: https://nodejs.org/en/download
+[psql-url]: https://www.postgresql.org/download/
