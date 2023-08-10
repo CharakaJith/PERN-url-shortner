@@ -15,8 +15,20 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
+      originalUrlHost: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
       shortUrlHash: {
         type: DataTypes.STRING,
+        allowNull: false,
+      },
+      shortUrlDomain: {
+        type: DataTypes.BOOLEAN,
+        allowNull: false,
+      },
+      isActive: {
+        type: DataTypes.BOOLEAN,
         allowNull: false,
       },
     },

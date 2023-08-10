@@ -17,9 +17,21 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING,
       },
+      original_url_host: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
       short_url_hash: {
         allowNull: false,
         type: Sequelize.STRING,
+      },
+      short_url_domain: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
+      is_active: {
+        allowNull: false,
+        type: Sequelize.BOOLEAN,
       },
       created_at: {
         allowNull: false,

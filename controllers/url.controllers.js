@@ -7,12 +7,12 @@ const UrlController = {
 
       const shortUrlResponse = await UrlService.shortNewUrl(data);
 
-      res.json({
+      res.status(201).json({
         success: true,
         message: shortUrlResponse,
       });
     } catch (error) {
-      res.json({
+      res.status(400).json({
         success: false,
         error: error.message,
       });
@@ -25,12 +25,9 @@ const UrlController = {
 
       const getUrlResponse = await UrlService.getUrlByHash(data);
 
-      res.json({
-        success: true,
-        message: getUrlResponse,
-      });
+      res.redirect(getUrlResponse.originalUrl);
     } catch (error) {
-      res.json({
+      res.status(404).json({
         success: false,
         error: error.message,
       });

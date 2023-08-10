@@ -46,6 +46,7 @@ const UrlRepository = {
       return await models.ShortUrls.findOne({
         where: {
           shortUrlHash: hash,
+          isActive: true,
         },
       });
     } catch (error) {

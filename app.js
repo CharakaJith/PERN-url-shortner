@@ -4,6 +4,7 @@ const chalk = require('chalk');
 const Sequelize = require('sequelize');
 const env = process.env.NODE_ENV || 'development';
 const config = require('./config/config')[env];
+const UrlController = require('./controllers/url.controllers');
 
 require('dotenv').config();
 const app = express();
@@ -39,6 +40,9 @@ const url = require('./routes/url.routes');
 
 // set up routing paths
 app.use('/api/url', url);
+
+// redirect to short url
+app.use('/:hash', UrlController.getUrlByHash);
 
 // start the server
 const PORT = process.env.PORT || 3000;
