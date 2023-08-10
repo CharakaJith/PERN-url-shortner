@@ -15,8 +15,8 @@
 
 ### Prerequisites
 
-- node.js: [Node.js download page](https://nodejs.org/en/download){:target="\_blank"}
-- postgreSQL: [PostgreSQL download page](https://www.postgresql.org/download/){:target="\_blank"}
+- node.js: [Node.js download page](https://nodejs.org/en/download)
+- postgreSQL: [PostgreSQL download page](https://www.postgresql.org/download/)
 
 ### Installation
 
