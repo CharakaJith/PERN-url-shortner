@@ -85,8 +85,12 @@
    npm run start
    ```
 
-<!-- MARKDOWN LINKS & IMAGES -->
+## Contact
+Charaka Jith Gunasinghe - [email](mailto:charaka.info@gmail.com) 
+LinkedIn profile: [Charaka Gunasinghe](https://www.linkedin.com/in/charaka-gunasinghe-6742861b9/)
+Project link: [PERN-url-shortner](https://github.com/CharakaJith/PERN-url-shortner)
 
+<!-- MARKDOWN LINKS & IMAGES -->
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
