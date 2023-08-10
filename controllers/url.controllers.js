@@ -12,7 +12,7 @@ const UrlController = {
         message: shortUrlResponse,
       });
     } catch (error) {
-      res.status(400).json({
+      res.json({
         success: false,
         error: error.message,
       });

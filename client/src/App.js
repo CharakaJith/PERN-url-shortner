@@ -89,7 +89,7 @@ function App() {
 
           {/* response box */}
           <>
-            {shortUrl ? (
+            {shortUrl && domain && !isError ? (
               <div className="response-box">
                 {domain}
                 {shortUrl}
