@@ -87,9 +87,7 @@
 
 ## Contact
 Charaka Jith Gunasinghe - [email](mailto:charaka.info@gmail.com)  
-
 LinkedIn profile: [Charaka Gunasinghe](https://www.linkedin.com/in/charaka-gunasinghe-6742861b9/)  
-
 Project link: [PERN-url-shortner](https://github.com/CharakaJith/PERN-url-shortner)
 
 <!-- MARKDOWN LINKS & IMAGES -->
