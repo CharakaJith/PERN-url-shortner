@@ -29,11 +29,15 @@
    ```bash
    npm install
    ```
-   ii. Create an `.env` file
+   ii. Create database tables
+   ```bash
+   npm run migrate:up
+   ```
+   iii. Create an `.env` file
    ```bash
    touch .env
    ```
-3. Set up the client
+4. Set up the client
    i. Navigate to the client folder
    ```bash
    cd client
