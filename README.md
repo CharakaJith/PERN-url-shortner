@@ -25,7 +25,8 @@
    git clone https://github.com/CharakaJith/PERN-url-shortner.git
    ```
 2. Set up the server
-   i. Install NPM packages
+   
+    i. Install NPM packages
    ```bash
    npm install
    ```
@@ -38,7 +39,8 @@
    touch .env
    ```
 4. Set up the client
-   i. Navigate to the client folder
+   
+    i. Navigate to the client folder
    ```bash
    cd client
    ```
@@ -91,9 +93,3 @@
 
 ## Contact
 Email: [charaka.info@gmail.com](mailto:charaka.info@gmail.com) | LinkedIn: [Charaka Jith Gunasinghe](https://www.linkedin.com/in/charaka-gunasinghe-6742861b9/)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
