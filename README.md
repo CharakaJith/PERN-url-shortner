@@ -82,7 +82,8 @@
    npm run dev
    ```
 2. Start the client
-   i. Navigate to the client folder
+   
+    i. Navigate to the client folder
    ```bash
    cd client
    ```
